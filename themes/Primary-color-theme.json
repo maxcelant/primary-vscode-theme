@@ -560,6 +560,7 @@
 				"meta.method.body.java",
 				"source.java",
 				"variable.other.object.java",
+				"constant.other.key.java",
 			],
 			"settings": {
 				"foreground": "#ffffff"
