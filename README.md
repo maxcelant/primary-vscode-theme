@@ -2,4 +2,5 @@
 
 Visual Studio Code Theme based off of the comfy, and cozy Obsidian theme of the same name.
 
-![image](https://github.com/user-attachments/assets/f342a374-80ea-4210-b5c1-fbf0c4bc1bce)
+![image](https://github.com/user-attachments/assets/1de00459-0149-438e-9ab7-ae850f4783de)
+
