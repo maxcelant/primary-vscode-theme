@@ -31,7 +31,7 @@
 		"tab.activeBackground": "#2B251C",
 		"tab.inactiveBackground": "#3A3A3A",
 		"tab.activeForeground": "#FFFFFF",
-		"tab.inactiveForeground": "#C3C3C3",
+		"tab.inactiveForeground": "#C3C3C3"
   },
 	"tokenColors": [
 		{
@@ -77,7 +77,7 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				"keyword",
+				"keyword"
 			],
 			"settings": {
 				"foreground": "#b57272"
@@ -90,7 +90,7 @@
 				"punctuation.separator.key-value"
 			],
 			"settings": {
-				"foreground": "#ad5050"  // Change to any color you want
+				"foreground": "#ad5050"  
 			}
 		},
 		{
@@ -124,10 +124,10 @@
 		{
 			"name": "Constant",
 			"scope": [
-				"punctuation",
+				"punctuation"
 			],
 			"settings": {
-				"foreground": "#50FA7B",
+				"foreground": "#50FA7B"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
-				"string.other.link",
+				"string.other.link"
 			],
 			"settings": {
 				"foreground": "#50FA7B"
@@ -176,7 +176,7 @@
 		{
 			"name": "Parameters",
 			"scope": [
-				"variable.parameter",
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -191,7 +191,7 @@
 				"constant.character",
 				"constant.escape",
 				"keyword.other.unit",
-				"keyword.other",
+				"keyword.other"
 			],
 			"settings": {
 				"foreground": "#8863d7",
@@ -207,7 +207,7 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"foreground": "#80df6b"
@@ -235,7 +235,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#f4c35a" // todo:
+				"foreground": "#f4c35a"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 				"punctuation.definition.begin.bracket.round.go",
 				"punctuation.definition.end.bracket.round.go",
 				"punctuation.definition.imports.begin.bracket.round.go",
-				"punctuation.definition.imports.end.bracket.round.go",
+				"punctuation.definition.imports.end.bracket.round.go"
 			],
 			"settings": {
 				"foreground": "#e6e6e6",
@@ -268,7 +268,7 @@
 			"name": "Go — Constants and Imports",
 			"scope": [
 				"constant.character.escape.go",
-				"entity.name.import.go",
+				"entity.name.import.go"
 			],
 			"settings": {
 				"foreground": "#80df6b"
@@ -316,7 +316,7 @@
 				"entity.name.type.class.ts",
 				"variable.object.property.ts",
 				"entity.name.type.alias.ts",
-				"entity.name.type.interface.ts",
+				"entity.name.type.interface.ts"
 			],
 			"settings": {
 				"foreground": "#f4c35a"
@@ -491,7 +491,7 @@
 				"variable.language.this.java",
 				"storage.modifier.extends.java",
 				"keyword.other.import.java",
-				"keyword.other.package.java",
+				"keyword.other.package.java"
 			],
 			"settings": {
 				"foreground": "#b57272"
@@ -506,7 +506,7 @@
 				"punctuation.definition.typeparameters.end.java",
 				"entity.name.type.java",
 				"storage.type.function.arrow.java",
-				"storage.type.generic.wildcard.java",
+				"storage.type.generic.wildcard.java"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -560,7 +560,7 @@
 				"meta.method.body.java",
 				"source.java",
 				"variable.other.object.java",
-				"constant.other.key.java",
+				"constant.other.key.java"
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -575,7 +575,7 @@
 				"comment.line.double-slash.java"
 			],
 			"settings": {
-				"foreground": "#61533e",
+				"foreground": "#61533e"
 			}
 		},
 		{
@@ -757,6 +757,8 @@
 				"punctuation.separator.dictionary.pair.json",
 				"punctuation.definition.array.begin.json",
 				"punctuation.definition.array.end.json",
+				"punctuation.separator.array.json.comments",
+				"punctuation.separator.array.json"
 			],
 			"settings": {
 				"foreground": "#b8b8b8"
