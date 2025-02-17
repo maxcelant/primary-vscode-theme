@@ -332,7 +332,8 @@
 				"punctuation.decorator.ts",
 				"punctuation.definition.section.case-statement.ts",
 				"punctuation.definition.typeparameters.begin.ts",
-				"punctuation.definition.typeparameters.end.ts"
+				"punctuation.definition.typeparameters.end.ts",
+				"entity.name.type.ts",
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -379,6 +380,8 @@
 				"entity.name.type.interface.ts",
 				"entity.name.type.enum.ts",
 				"variable.other.constant.ts",
+				"variable.object.property.ts",
+				"meta.object-literal.key.ts",
 			],
 			"settings": {
 				"foreground": "#ffffff"
