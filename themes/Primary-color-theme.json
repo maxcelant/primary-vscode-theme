@@ -42,7 +42,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#6A737D"
+				"foreground": "#61533e"
 			}
 		},
 		{
@@ -409,6 +409,11 @@
 		{
 			"name": "Java — Brackets & Symbols",
 			"scope": [
+				"punctuation.bracket.round.java",
+				"punctuation.section.block.begin.bracket.curly.java",
+				"punctuation.section.block.end.bracket.curly.java",
+				"punctuation.definition.parameters.begin.bracket.round.java",
+				"punctuation.definition.parameters.end.bracket.round.java",
 				"punctuation.section.block.begin.java",
 				"punctuation.section.block.end.java",
 				"punctuation.section.parens.begin.java",
@@ -416,7 +421,28 @@
 				"punctuation.section.brackets.begin.java",
 				"punctuation.section.brackets.end.java",
 				"punctuation.terminator.statement.java",
-				"punctuation.accessor.java"
+				"punctuation.accessor.java",
+				"punctuation.separator.period.java",
+				"punctuation.terminator.java",
+				"punctuation.section.method.begin.bracket.curly.java",
+				"punctuation.section.method.end.bracket.curly.java",
+				"punctuation.section.class.begin.bracket.curly.java",
+				"punctuation.section.class.end.bracket.curly.java",
+				"punctuation.section.enum.begin.bracket.curly.java",
+				"punctuation.section.enum.end.bracket.curly.java",
+				"punctuation.section.try.begin.bracket.curly.java",
+				"punctuation.section.try.end.bracket.curly.java",
+				"punctuation.separator.delimiter.java",
+				"punctuation.bracket.angle.java",
+				"punctuation.bracket.square.java",
+				"punctuation.section.catch.begin.bracket.curly.java",
+				"punctuation.section.catch.end.bracket.curly.java",
+				"punctuation.section.finally.begin.bracket.curly.java",
+				"punctuation.section.finally.end.bracket.curly.java",
+				"punctuation.definition.annotation.java",
+				"storage.type.annotation.java",
+				"punctuation.definition.annotation-arguments.begin.bracket.round.java",
+				"punctuation.definition.annotation-arguments.end.bracket.round.java"
 			],
 			"settings": {
 				"foreground": "#b8b8b8"
@@ -427,7 +453,8 @@
 			"scope": [
 				"entity.name.function.java",
 				"support.function.java",
-				"meta.function.java"
+				"meta.function.java",
+				"storage.type.java"
 			],
 			"settings": {
 				"foreground": "#f4c35a"
@@ -440,7 +467,8 @@
 				"entity.name.type.class.java",
 				"variable.object.property.java",
 				"entity.name.type.interface.java",
-				"entity.name.type.enum.java"
+				"entity.name.type.enum.java",
+				"entity.other.inherited-class.java"
 			],
 			"settings": {
 				"foreground": "#f4c35a"
@@ -454,14 +482,16 @@
 				"storage.type.interface.java",
 				"storage.type.enum.java",
 				"storage.type.primitive.java",
-				"storage.type.java",
 				"keyword.control.flow.java",
 				"keyword.operator.new.java",
 				"keyword.control.java",
 				"keyword.control.import.java",
 				"keyword.control.package.java",
 				"storage.modifier.java",
-				"variable.language.this.java"
+				"variable.language.this.java",
+				"storage.modifier.extends.java",
+				"keyword.other.import.java",
+				"keyword.other.package.java",
 			],
 			"settings": {
 				"foreground": "#b57272"
@@ -475,7 +505,8 @@
 				"punctuation.definition.typeparameters.begin.java",
 				"punctuation.definition.typeparameters.end.java",
 				"entity.name.type.java",
-				"storage.type.function.arrow.java"
+				"storage.type.function.arrow.java",
+				"storage.type.generic.wildcard.java",
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -485,7 +516,9 @@
 			"name": "Java — Variables",
 			"scope": [
 				"meta.definition.variable.java",
-				"punctuation.separator.comma.java"
+				"punctuation.separator.comma.java",
+				"storage.modifier.import.java",
+				"punctuation.separator.java"
 			],
 			"settings": {
 				"foreground": "#e6e6e6"
@@ -523,12 +556,27 @@
 				"variable.object.property.java",
 				"meta.object-literal.key.java",
 				"variable.other.property.java",
-				"support.variable.property.java"
+				"support.variable.property.java",
+				"meta.method.body.java",
+				"source.java",
+				"variable.other.object.java",
 			],
 			"settings": {
 				"foreground": "#ffffff"
 			}
-		},		
+		},
+		{
+			"name": "Java — Comments",
+			"scope": [
+				"punctuation.definition.comment.java",
+				"comment.block.javadoc.java",
+				"punctuation.definition.comment.java",
+				"comment.line.double-slash.java"
+			],
+			"settings": {
+				"foreground": "#61533e",
+			}
+		},
 		{
 			"name": "CSS Class and Support",
 			"scope": [
