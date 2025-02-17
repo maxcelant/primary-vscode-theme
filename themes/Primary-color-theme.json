@@ -2,10 +2,10 @@
 	"name": "Primary",
   "colors": {
     "editor.background": "#2B251C",
-    "editor.foreground": "#2B251C",
+    "editor.foreground": "#2b251c",
     "editor.lineHighlightBackground": "#322b21",
     "editor.selectionBackground": "#3f362a",
-    "editorCursor.foreground": "#827562",
+    "editorCursor.foreground": "#a9906a",
 		"activityBar.background": "#2B251C",
 		"activityBar.foreground": "#FFFFFF",
 		"activityBar.border": "#2B251C",
@@ -239,6 +239,17 @@
 			}
 		},
 		{
+			"name": "Go — Variables",
+			"scope": [
+				"punctuation.other.comma.go",
+				"variable.other.assignment.go",
+				"variable.other.go"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
 			"name": "Go — Brackets",
 			"scope": [
 				"punctuation.definition.begin.bracket.curly.go",
@@ -246,7 +257,7 @@
 				"punctuation.definition.begin.bracket.round.go",
 				"punctuation.definition.end.bracket.round.go",
 				"punctuation.definition.imports.begin.bracket.round.go",
-				"punctuation.definition.imports.end.bracket.round.go"
+				"punctuation.definition.imports.end.bracket.round.go",
 			],
 			"settings": {
 				"foreground": "#e6e6e6",
@@ -279,10 +290,12 @@
 				"punctuation.decorator.ts",
 				"punctuation.accessor.ts",
 				"meta.brace.round.ts",
-				"meta.brace.curly.ts"
+				"meta.brace.curly.ts",
+				"punctuation.other.period.go",
+				"punctuation.other.comma.go"
 			],
 			"settings": {
-				"foreground": "#cacaca"
+				"foreground": "#b8b8b8"
 			}
 		},
 		{
@@ -300,7 +313,10 @@
 			"name": "TS — Object Properties",
 			"scope": [
 				"variable.other.object.ts",
-				"variable.object.property.ts"
+				"entity.name.type.class.ts",
+				"variable.object.property.ts",
+				"entity.name.type.alias.ts",
+				"entity.name.type.interface.ts",
 			],
 			"settings": {
 				"foreground": "#f4c35a"
@@ -320,7 +336,9 @@
 				"keyword.control.ts",
 				"keyword.control.export.ts",
 				"keyword.control.import.ts",
-				"punctuation.accessor.optional.ts"
+				"punctuation.accessor.optional.ts",
+				"storage.modifier.ts",
+				"variable.language.this.ts"
 			],
 			"settings": {
 				"foreground": "#b57272"
@@ -334,6 +352,7 @@
 				"punctuation.definition.typeparameters.begin.ts",
 				"punctuation.definition.typeparameters.end.ts",
 				"entity.name.type.ts",
+				"storage.type.function.arrow.ts"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -342,7 +361,6 @@
 		{
 			"name": "TS — Variables",
 			"scope": [
-				"variable.other.readwrite.ts",
 				"meta.definition.variable.ts",
 				"punctuation.separator.comma.ts"
 			],
@@ -355,7 +373,8 @@
 			"scope": [
 				"constant.numeric.ts",
 				"constant.language.ts",
-				"support.constant.ts"
+				"support.constant.ts",
+				"storage.type.numeric.bigint.ts"
 			],
 			"settings": {
 				"foreground": "#8863d7",
@@ -376,56 +395,109 @@
 		{
 			"name": "TS — Classes & Interfaces",
 			"scope": [
-				"entity.name.type.class.ts",
-				"entity.name.type.interface.ts",
 				"entity.name.type.enum.ts",
 				"variable.other.constant.ts",
 				"variable.object.property.ts",
 				"meta.object-literal.key.ts",
+				"variable.other.property.ts",
+				"support.variable.property.ts"
 			],
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},
 		{
-			"name": "Java — Brackets",
+			"name": "Java — Brackets & Symbols",
 			"scope": [
 				"punctuation.section.block.begin.java",
 				"punctuation.section.block.end.java",
-				"punctuation.section.group.begin.java",
-				"punctuation.section.group.end.java",
-				"meta.brace.square.ts",
+				"punctuation.section.parens.begin.java",
+				"punctuation.section.parens.end.java",
+				"punctuation.section.brackets.begin.java",
+				"punctuation.section.brackets.end.java",
+				"punctuation.terminator.statement.java",
+				"punctuation.accessor.java"
 			],
 			"settings": {
-				"foreground": "#dbdbdb", 
-				"fontStyle": "bold"
+				"foreground": "#b8b8b8"
 			}
 		},
 		{
-			"name": "Java — Keywords",
+			"name": "Java — Function & Method Declarations",
 			"scope": [
-				"keyword.control.java",
+				"entity.name.function.java",
+				"support.function.java",
+				"meta.function.java"
+			],
+			"settings": {
+				"foreground": "#f4c35a"
+			}
+		},
+		{
+			"name": "Java — Object Properties & Classes",
+			"scope": [
+				"variable.other.object.java",
+				"entity.name.type.class.java",
+				"variable.object.property.java",
+				"entity.name.type.interface.java",
+				"entity.name.type.enum.java"
+			],
+			"settings": {
+				"foreground": "#f4c35a"
+			}
+		},
+		{
+			"name": "Java — Keywords (Function, Class, Interface, Type)",
+			"scope": [
+				"storage.type.function.java",
+				"storage.type.class.java",
+				"storage.type.interface.java",
+				"storage.type.enum.java",
+				"storage.type.primitive.java",
 				"storage.type.java",
-				"storage.modifier.java"
+				"keyword.control.flow.java",
+				"keyword.operator.new.java",
+				"keyword.control.java",
+				"keyword.control.import.java",
+				"keyword.control.package.java",
+				"storage.modifier.java",
+				"variable.language.this.java"
 			],
 			"settings": {
 				"foreground": "#b57272"
 			}
 		},
 		{
-			"name": "Java — Assignment Operators",
+			"name": "Java — Symbols & Special Punctuation",
 			"scope": [
-				"keyword.operator.assignment.java"
+				"punctuation.decorator.java",
+				"punctuation.definition.section.case-statement.java",
+				"punctuation.definition.typeparameters.begin.java",
+				"punctuation.definition.typeparameters.end.java",
+				"entity.name.type.java",
+				"storage.type.function.arrow.java"
 			],
 			"settings": {
-				"foreground": "#ad5050"
+				"foreground": "#f07178"
 			}
 		},
 		{
-			"name": "Java — Constants & Numbers",
+			"name": "Java — Variables",
+			"scope": [
+				"meta.definition.variable.java",
+				"punctuation.separator.comma.java"
+			],
+			"settings": {
+				"foreground": "#e6e6e6"
+			}
+		},
+		{
+			"name": "Java — Constants",
 			"scope": [
 				"constant.numeric.java",
-				"constant.language.java"
+				"constant.language.java",
+				"support.constant.java",
+				"storage.type.numeric.bigint.java"
 			],
 			"settings": {
 				"foreground": "#8863d7",
@@ -433,10 +505,10 @@
 			}
 		},
 		{
-			"name": "Java — Strings",
+			"name": "Java — Strings & Characters",
 			"scope": [
-				"string.quoted.double.java",
 				"string.quoted.single.java",
+				"string.quoted.double.java",
 				"constant.other.symbol.java"
 			],
 			"settings": {
@@ -444,57 +516,17 @@
 			}
 		},
 		{
-			"name": "Java — Methods & Functions",
+			"name": "Java — Classes, Interfaces & Properties",
 			"scope": [
-				"entity.name.function.java",
-				"meta.method.java",
-				"variable.function.java",
-				"support.function.java"
-			],
-			"settings": {
-				"foreground": "#f4c35a"
-			}
-		},
-		{
-			"name": "Java — Variables",
-			"scope": [
-				"variable.java",
-				"meta.definition.variable.java"
-			],
-			"settings": {
-				"foreground": "#cecfcf"
-			}
-		},
-		{
-			"name": "Java — Comments",
-			"scope": [
-				"comment.line.double-slash.java",
-				"comment.block.documentation.java"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#6A737D"
-			}
-		},
-		{
-			"name": "Java — Classes and Types",
-			"scope": [
-				"entity.name.type.class.java",
-				"entity.name.type.interface.java"
+				"entity.name.type.enum.java",
+				"variable.other.constant.java",
+				"variable.object.property.java",
+				"meta.object-literal.key.java",
+				"variable.other.property.java",
+				"support.variable.property.java"
 			],
 			"settings": {
 				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "Java — Imports & Packages",
-			"scope": [
-				"keyword.control.import.java",
-				"keyword.other.package.java",
-				"entity.name.namespace.java"
-			],
-			"settings": {
-				"foreground": "#80df6b"
 			}
 		},		
 		{
