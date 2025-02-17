@@ -31,7 +31,7 @@
 		"tab.activeBackground": "#2B251C",
 		"tab.inactiveBackground": "#3A3A3A",
 		"tab.activeForeground": "#FFFFFF",
-		"tab.inactiveForeground": "#C3C3C3"
+		"tab.inactiveForeground": "#C3C3C3",
   },
 	"tokenColors": [
 		{
@@ -755,6 +755,8 @@
 				"punctuation.definition.dictionary.end.json",
 				"punctuation.separator.dictionary.key-value.json",
 				"punctuation.separator.dictionary.pair.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json",
 			],
 			"settings": {
 				"foreground": "#b8b8b8"

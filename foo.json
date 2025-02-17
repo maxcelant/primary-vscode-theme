@@ -1,0 +1,8 @@
+{
+  "foo": "bar",
+  "bar": false,
+  "baz": 123,
+  "wuz": [
+    "foo", 12, false
+  ]
+}
