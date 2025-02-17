@@ -1,0 +1,21 @@
+{
+  "name": "primary-theme",
+  "displayName": "Primary Theme",
+  "description": "A soft, chewy, comforting theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Primary",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Primary-color-theme.json"
+      }
+    ]
+  }
+}
