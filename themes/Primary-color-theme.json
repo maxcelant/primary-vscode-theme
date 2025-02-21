@@ -579,6 +579,111 @@
 			}
 		},
 		{
+			"name": "TSX — Parenthesis, Brackets, etc",
+			"scope": [
+				"punctuation.definition.parameters.begin.tsx",
+				"punctuation.definition.parameters.end.tsx",
+				"punctuation.definition.binding-pattern.object.tsx",
+				"punctuation.definition.block.tsx",
+				"meta.brace.round.tsx",
+				"punctuation.terminator.statement.tsx",
+				"variable.other.readwrite.alias.tsx",
+				"variable.other.constant.tsx",
+				"entity.name.function.tsx",
+				"punctuation.accessor.tsx",
+				"variable.other.object.tsx",
+				"punctuation.section.embedded.begin.tsx",
+				"meta.brace.square.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.definition.binding-pattern.array.tsx",
+				"punctuation.separator.comma.tsx",
+				"punctuation.destructuring.tsx",
+				"punctuation.accessor.optional.tsx",
+				"variable.other.readwrite.tsx",
+				"meta.object-literal.key.tsx",
+			],
+			"settings": {
+				"foreground": "#e4e4e4"
+			}
+		},
+		{
+			"name": "TSX — Functions",
+			"scope": [
+				"entity.name.function.tsx",
+				"variable.other.property.tsx"
+			],
+			"settings": {
+				"foreground": "#f4c35a"
+			}
+		},
+		{
+			"name": "TSX — Keywords",
+			"scope": [
+				"storage.type.tsx",
+				"storage.type.function.tsx",
+				"storage.modifier.async.tsx"
+			],
+			"settings": {
+				"foreground": "#b57272"
+			}
+		},
+		{
+			"name": "TSX — ",
+			"scope": [
+				"punctuation.definition.typeparameters.begin.tsx",
+				"punctuation.definition.typeparameters.end.tsx",
+				"storage.type.function.arrow.tsx",
+			],
+			"settings": {
+				"foreground": "#f07178",
+			}
+		},
+		{
+			"name": "Terraform",
+			"scope": [
+				"punctuation.section.block.begin.hcl",
+				"punctuation.section.block.end.hcl",
+				"punctuation.section.braces.begin.hcl",
+				"punctuation.section.braces.end.hcl",
+				"keyword.operator.assignment.hcl",
+				"punctuation.section.brackets.end.hcl",
+				"punctuation.section.brackets.begin.hcl",
+			],
+			"settings": {
+				"foreground": "#b8b8b8",
+			}
+		},
+		{
+			"name": "Terraform",
+			"scope": [
+				"variable.other.readwrite.terraform",
+				"variable.other.member.hcl",
+			],
+			"settings": {
+				"foreground": "#e4e4e4",
+			}
+		},
+		{
+			"name": "Terraform",
+			"scope": [
+				"variable.other.readwrite.hcl",
+				"variable.other.enummember.hcl"
+			],
+			"settings": {
+				"foreground": "#48bac9",
+			}
+		},
+		{
+			"name": "Terraform",
+			"scope": [
+				"entity.name.type.hcl",
+				"entity.name.type.terraform"
+			],
+			"settings": {
+				"foreground": "#b57272",
+			}
+		},
+		{
 			"name": "CSS Class and Support",
 			"scope": [
 				"source.css support.type.property-name",
